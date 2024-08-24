@@ -63,9 +63,38 @@ body {
     font-size: 20px;
 }
 
+.image-container {
+    width: 40vmin;
+    height: 56vmin;
+    position: relative;
+    margin-bottom: 10vmin;
+}
+
+.text-white-bg {
+    position: absolute;
+    bottom: 52.4px;
+    right: 0px;
+    background-color: white;
+    padding: 15px 20px;
+    font-weight: 900;
+}
+
+.text-green-bg {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: #8dc728;
+    padding: 15px 40px;
+    font-weight: 900;
+}
+
 .image {
     width: 40vmin;
     height: 56vmin;
     object-fit: cover;
     object-position: center;
+}
+
+.move-left {
+    margin-right: 75px;
 }
