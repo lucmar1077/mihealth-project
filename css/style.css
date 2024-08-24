@@ -40,6 +40,29 @@ body {
     gap: 16px;
 }
 
+.info {
+    padding: 20px 90px;
+    height: 75vh;
+}
+
+.info h1 {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.info nav {
+    font-size: 20px;
+}
+
 .image {
     width: 40vmin;
     height: 56vmin;
