@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+.meal-types {
+    list-style-type: none;
+    display: flex;
+    gap: 48px;
+    margin: 30px 50px 30px 30px;
+}
+
+.meal-types a {
+    text-decoration: none;
+    color: #111111;
+}
