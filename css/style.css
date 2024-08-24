@@ -5,6 +5,10 @@
     font-family: Helvetica, sans-serif;
 }
 
+body {
+    overflow: hidden;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -26,4 +30,19 @@
 .meal-types a {
     text-decoration: none;
     color: #111111;
+}
+
+.section {
+    background-color: #e0e0e0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: center;
 }
